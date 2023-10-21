@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+    <div class="input">
+      <div class="day">
+        <div class="day2">DAY</div>
+        <input name="day" type="number" id="dayInput" maxlength="2" placeholder="DD">
+        <div id="errorDay"></div>
+      </div>
+
+      <div class="month">
+        <div class="month2">MONTH</div>
+        <input name="month" type="number" id="monthInput" maxlength="2" placeholder="MM">
+        <div id="errorMonth"></div>
+      </div>
+
+      <div class="year">
+        <div class="year2">YEAR</div>
+        <input name="year" type="number" id="yearInput" maxlength="4" placeholder="YYYY">
+        <div id="errorYear"></div>
+      </div>
+      
+    </div>
+      <div class="line-and-image">
+        <hr class="separator">
+       
+        <div class="image" id="button">
+          <img src="./assets/images/icon-arrow.svg" alt="Arrow Icon" class="arrow">
+        </div>
+       
+      </div>
+
+</section>
+
+
+  <div class="output">
+    <div class="res"><div id="resultYears">- -</div> years</div>
+    <div class="res"><div id="resultMonths">- -</div> months</div>
+    <div class="res"><div id="resultDays">- -</div> days</div>
+  </div>
+  </main>
+  <script src="app.js"></script>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/nas22663">Nas22663</a>.
+  </footer>
+</body>
+</html>
