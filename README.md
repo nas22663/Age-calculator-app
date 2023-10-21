@@ -43,7 +43,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/nas22663/Age-calculator-app)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://nas22663.github.io/Age-calculator-app/)
 
 ## My process
 
